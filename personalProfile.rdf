@@ -1,0 +1,24 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:aiiso="http://purl.org/vocab/aiiso/schema#"
+xmlns:foaf="http://xmlns.com/foaf/1.0/"
+xmlns:owl="http://www.w3.org/2002/07/owl#">
+<rdf:Description rdf:about="http://www.cse.iitb.ac.in/~sandahirey/">
+<foaf:name>SANJAY KUMAR DAHIREY</foaf:name>
+<rdf:type rdf:resource="http://www.cse.iitb.ac.in/mtech#"/>
+</rdf:Description>
+<owl:Class rdf:about="http://www.cse.iitb.ac.in/mtech#">
+<rdfs:specialization>Master Of Technology</rdfs:specialization>
+<rdfs:comment>This a postgraduation scheme in engineering stream</rdfs:comment>
+<rdfs:branch rdf:resource="http://www.computerscience.com/engineering#"/>
+</owl:Class>
+<owl:Class rdf:about="http://www.computerscience.com/engineering#">
+<rdfs:lable>engineering</rdfs:label>
+<rdfs:stream>Computer Science and Engineering</rdfs:stream>
+<aiiso:institute rdf:resource="http://www.iitb.ac.in/"/>
+</owl:Class>
+<owl:Class rdf:about="http://www.iitb.ac.in/">
+<rdfs:label>IIT,Bombay</rdfs:label>
+</owl:Class>
+</rdf:RDF>

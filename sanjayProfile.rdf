@@ -1,0 +1,33 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:aiiso="http://purl.org/vocab/aiiso/schema#"
+xmlns:foaf="http://xmlns.com/foaf/1.0/"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:myvoc="http://www.myvocabulay.com/vocabulary#"
+xmlns:org="https://schema.org/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:vcard="http://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/">
+<rdf:Description rdf:about="http://www.myprofile.com/sanjayprofile#">
+<foaf:name>SANJAY KUMAR</foaf:name>
+<foaf:familyName>DAHIREY</foaf:familyName>
+<myvoc:rollnumber>153050089</myvoc:rollnumber>
+<foaf:age>25</foaf:age>
+<vcard:hasAddress rdf:resource="http://www.address.com/myaddress/sanjay#"/>
+<myvoc:mtech rdf:resource="http://www.aboutMtech.com/mtech#"/>
+<org:department>Computer Science and Engineering</org:department>
+<aiiso:currentProject rdf:resource="http://www.project.com/myproject#"/>
+<foaf:mbox_sha1sum>866610b0748116b6058ae5f9ff86cc5985f8c615</foaf:mbox_sha1sum>
+<foaf:homePage rdf:resource="http://www.cse.iitb.ac.in/~sandahirey"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.project.com/myproject#">
+<aiiso:name>Linking Open Data</aiiso:name>
+<rdfs:comment>A technique through which we connect data published at one source to another.</rdfs:comment>
+<myvoc:guidedby rdf:resource="http://www.facultyprofile/NL_Sarda#"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.aboutMtech.com/mtech#">
+<dc:description>MTech is a masters degree in the engineering field</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.address.com/myaddress/sanjay#">
+</rdf:Description>
+</rdf:RDF>
